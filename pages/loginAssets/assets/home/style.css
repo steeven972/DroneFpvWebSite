@@ -10,12 +10,13 @@ header{
     display: flex;
     align-items: center;
     padding: 5px;
+    background-color:  #efebcee6;
 }
 h1{
     translate: 10vw;
     letter-spacing: 6px;
     color: #a3a380;
-    font-size: 2rem;
+    font-size: 1.2rem;
     
 }
 .btnBox{
@@ -33,7 +34,7 @@ h1{
 
 nav {
     display: flex;
-    gap:15px;
+    gap:30px;
 }
 nav li{
     list-style: none;
@@ -42,17 +43,31 @@ nav li{
 nav a {
     text-decoration: none;
     color:#a3a380;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
 }
 nav a:hover{
     color:#a3a3808e;
 }
-i{
+.icon-link{
     padding: 15px;
     cursor: pointer;
     color: #a3a380;
 }
-i:hover{
+.search-Btn{
+    border: none;
+    background-color: #a3a38099;
+    border-radius: 80px;
+}
+.search-Btn i{
+    color:  #a3a380;
+    padding: 5px;
+}
+
+.icon-link{
+    text-decoration: none;
+    color: #a3a380;
+}
+.icon-link:hover{
     color:#a3a3808e;
 }
 
@@ -68,13 +83,70 @@ i:hover{
 .searchBar{
     background-color: #efebceeb;
     padding: 7px;
-    padding-right: 30% ;
+    padding-left: 3%;
     border: none;
     border-radius: 10px;
-    margin-left: 15%;
+    text-align: right;
+    color: #a3a380;
+    font-size: 1.1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 .searchBar:focus{
-    outline: none;
+    outline: 1px solid #a3a3807c;
     box-shadow: none;
 }
+.type-drone{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+}
+.drone-list{
+    width: 100%;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+.drone-list li{
+    margin: 4%;
+}
+.one{
+    display: flex;
+    background-color:  #efebcee6;
+    background-position: center;
+    width: 100%;
+    height: 60vh;
+    padding: 50px;
+}
+.text-first-drone{
+    width: 40%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+}
+.text-first-drone h2{
+    margin-top: 15%;
+    margin-left: 4%;
+    font-size: 1.5rem;
+    letter-spacing: 6px;
+    color:  #a3a380;
+   
+
+}
+.text-first-drone p{
+    color: #a3a380;
+    margin-left: 5%;
+}
+.image-drone{
+    background-image: url("image-drone.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 60vh;
+    margin-right: 5%;
+    margin-left: 7%;
+}
+
 
