@@ -13,10 +13,11 @@
                     <h1>Login</h1>
                     <div class="inputField">
                         <form action="#" id="loginForm">
-                            <input class="input email" type="email" id="email" placeholder="E-mail" required pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/" ><br>
+                            <input class="input email" type="email" id="email" placeholder="E-mail" required pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/" 
+                            autocomplete="email"><br>
                             <input class="input password" type="password" id="password" placeholder="password" required>
                             <div class="bottomLogin">
-                                <label class="remember" for="remember-me"><input type="checkbox" id="remember-me">Remember me</label>
+                                <label class="remember" for="remember-me"><input type="checkbox" id="remember-me-check">Remember me</label>
                                 <p class="forgot"><a href="#">Forgot password ?</a></p>
                             </div>
                             <button class="Submit" type="submit" >Submit</button>
@@ -27,8 +28,10 @@
                 
                 
             </div>
-            
+       
+
         </main>
+
         <script src="index.js"> </script>
     </body>
 </html>
