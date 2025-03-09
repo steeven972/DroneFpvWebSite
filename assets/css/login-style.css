@@ -12,6 +12,7 @@ body{
     /*background-color: #efebceb8;*/
     /*background-color: #443C68;*/
     background-color: #250645;
+    background: #000;
     overflow-x: hidden;
 }
 .container{
@@ -127,7 +128,7 @@ body{
 }
 .forgot a{
     text-decoration: none;
-    color: var(--font-color);
+    color: rgb(20, 20, 20)
 }
 
 .bottomLogin{
@@ -155,7 +156,8 @@ body{
     /*color: #a3a380cf;*/
     /*background-color: #d6ce93d3;*/
     color: var(--font-color);
-    background-color: #2d174dfc;
+    /*background-color: #2d174dfc;*/
+    background-color: #fff;
 }
 .Submit:active{
     color: #a5a4a4;
