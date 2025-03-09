@@ -20,8 +20,10 @@ header{
     /*background-color:  #efebcee6;*/
     /*background: linear-gradient(90deg,  #443C68, #b4b9eb1d),
                 linear-gradient(-90deg,  #443C68, #b4b9ebd4);*/
-    background: linear-gradient(90deg,  var(--bg-color), #430e7186),
-                linear-gradient(-90deg,  var(--bg-color), #aa14b286);
+    /*background: linear-gradient(90deg,  var(--bg-color), #430e7186),
+                linear-gradient(-90deg,  var(--bg-color), #aa14b286);*/
+
+    
 }
 h1{
     translate: 10vw;

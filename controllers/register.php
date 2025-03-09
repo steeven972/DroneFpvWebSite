@@ -24,7 +24,8 @@
                 
                 $stmt = $pdo->prepare("INSERT INTO users(email, password_hash) VALUES (?, ?)");
                 $stmt->execute([$email, $passwordHash]);
-
+                
+        
             }
             catch(PDOException $e) {
                 //echo json_encode(["error" => "Erreur SQL : " . $e->getMessage()]);
